@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 680px;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.buttons {
+  margin-top: 20px;
+}

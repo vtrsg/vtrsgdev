@@ -1,0 +1,40 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  width: 209.93px;
+  height: 273.41px;
+  left: 127px;
+  top: 846.99px;
+  border: 1px solid #05ff0f;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.45));
+  border-radius: 18px;
+  padding: 5px;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}

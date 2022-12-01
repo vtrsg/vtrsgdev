@@ -3,8 +3,4 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background: #232526;
-  background: -webkit-linear-gradient(to bottom, #191919, #000000);
-  background: linear-gradient(to bottom, #191919, #000000);
-}
+

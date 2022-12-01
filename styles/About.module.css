@@ -4,7 +4,7 @@
   justify-content: space-around;
   height: 600px;
   background: #000000;
-  padding: 20px;
+  width: 100%;
 }
 .image {
   border-radius: 150px;

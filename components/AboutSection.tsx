@@ -1,6 +1,6 @@
 import Image from "next/image";
-import style from "./About.module.css";
-import Avatar from "../../public/avatar.jpg";
+import style from "../styles/About.module.css";
+import Avatar from "../public/avatar.jpg";
 
 export const About = () => {
   return (

@@ -1,5 +1,5 @@
-import { MyButton } from "../MyButton";
-import style from "./Section.module.css";
+import { MyButton } from "./partials/MyButton";
+import style from "../styles/Initial.module.css";
 
 export const Initial = () => {
     

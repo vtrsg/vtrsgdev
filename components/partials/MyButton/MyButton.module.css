@@ -17,3 +17,9 @@
   text-align: center;
   color: #05ff0f;
 }
+
+@media (max-width: 430px) {
+  .myBtn span{
+    font-size: 20px;
+  }
+}

@@ -2,16 +2,9 @@ import Head from "next/head";
 import style from "../styles/Home.module.css";
 
 import { Header } from "../components/partials/Header";
-import { GridTools } from "../components/partials/GridTools";
-import { GridSkills } from "../components/partials/GridSkills";
 import { Footer } from "../components/partials/Footer";
 
-
-import { Initial } from "../components/InitialSection";
-import { Section } from "../components/Section";
-import { About } from "../components/AboutSection";
-
-export default function Home() {
+export default function Contato() {
   return (
     <div className={style.container}>
       <Head>
@@ -26,17 +19,8 @@ export default function Home() {
         ></link>
       </Head>
       <Header />
-      <main className={style.main}>
-        <Initial />
-        <About />
-        <Section label={"Ferramentas"}>
-          <GridTools/>
-        </Section>
-        <Section label={"Habilidades"}>
-          <GridSkills/>
-        </Section>
-      </main>
-      <Footer/>
+      <main className={style.main}></main>
+      <Footer />
     </div>
   );
 }

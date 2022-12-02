@@ -7,8 +7,7 @@ export const Tools = () => {
     <div className={style.container}>
       <h2 className={style.title}>Ferramentas</h2>
       
-      <GridTools/>
-      
+      <GridTools/>      
     </div>
   );
 };

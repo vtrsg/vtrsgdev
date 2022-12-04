@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 600px;
+  border-radius: 18px;
+  padding: 5px;
+}
+.form {
+  display: flex;
+  height: auto;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.inputMsg {
+  box-sizing: border-box;
+  width: 550px;
+  height: 173px;
+  background: #ffffff;
+  border: 1px solid #05ff0f;
+  border-radius: 10px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 550px;
+  height: 63px;
+  background: #ffffff;
+  border: 1px solid #05ff0f;
+  border-radius: 10px;
+  
+}
+
+.input, .inputMsg {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+@media (max-width: 430px) {
+  .container {
+    width: 310px;
+  }
+  .input, .inputMsg {
+    width: 310px;
+}
+}

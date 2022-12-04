@@ -6,14 +6,11 @@
   border-radius: 28px;
   background: none;
   cursor: pointer;
-}
 
-.myBtn span {
   font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 29px;
   text-align: center;
   color: #05ff0f;
 }
@@ -22,4 +19,11 @@
   .myBtn span{
     font-size: 20px;
   }
+}
+
+
+.myBtn:hover {
+  background-color:#05ff0f ;
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }

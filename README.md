@@ -1,7 +1,7 @@
 
-## Bem vindo ao meu portfólio 
+# Bem vindo ao meu portfólio 
 
-# Tecnologias utilizadas 
+## Tecnologias utilizadas 
 
 * next
 * typescript

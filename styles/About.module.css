@@ -39,6 +39,9 @@
 .purple {
   color: #8F00FF;
 }
+.codeItem:hover {
+    filter: brightness(2.5);
+}
 @media (max-width: 780px) {
   .container{
     flex-direction: column;

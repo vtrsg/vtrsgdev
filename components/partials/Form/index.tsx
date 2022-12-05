@@ -47,7 +47,7 @@ export const Form = () => {
           id="message"
           cols={35}
           rows={8}
-          placeholder="Mensagem"
+          placeholder="Deixe sua Mensagem"
           className={style.inputMsg}
           required
         />

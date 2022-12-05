@@ -1,6 +1,9 @@
-import { MyButton } from "./partials/MyButton";
-import style from "../styles/Initial.module.css";
 import Link from "next/link";
+import Image from "next/image";
+import style from "../styles/Initial.module.css";
+
+import Seta from "../public/seta.png";
+import { MyButton } from "./partials/MyButton";
 
 export const Initial = () => {
     
@@ -9,6 +12,7 @@ export const Initial = () => {
   };
  
   return (
+    <>
     <div className={style.container}>
       <span className={style.text}>
         Olá! Me chamo <b>Vittorio</b> e sou
@@ -22,6 +26,25 @@ export const Initial = () => {
         />
         </Link>
       </div>
+      
     </div>
+    <div className={style.setas}>
+      <Image
+        src={Seta}
+        width={32}
+        height={32}
+        alt={"rolar para baixo"}
+        className={style.image}
+      />
+      <Image
+        src={Seta}
+        width={32}
+        height={32}
+        alt={"rolar para baixo"}
+        className={style.image}
+      />
+      </div>
+    
+    </>
   );
 };

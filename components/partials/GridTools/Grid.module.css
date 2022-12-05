@@ -20,6 +20,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 1px 1px 4px rgba(255, 253, 253, 0.25);
   border-radius: 25px;
+  transition: 2s !important;
 }
 
 .text {
@@ -29,6 +30,12 @@
   font-size: 15px;
   text-align: center;
   margin-bottom: 5px;
+}
+.tool:hover {
+    filter: brightness(2.5);
+    width: 135px;
+    height: 175px;
+    opacity: 1;
 }
 
 @media (max-width: 780px){
